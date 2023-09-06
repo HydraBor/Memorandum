@@ -12,9 +12,9 @@ const Item = ({ id, note, date, time, deleteData, submittingStatus }) => {
         <p>{note}</p>
         <p>{`${date} ${time}`}</p>
       </div>
-      {/* <button onClick={deleteItem} className="remove">
+      <button onClick={deleteItem} className="remove">
         删除
-      </button> */}
+      </button>
     </div>
   );
 };
